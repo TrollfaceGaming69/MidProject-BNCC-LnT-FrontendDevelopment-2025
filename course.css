@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #148ced;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #056ff1;
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+
+.nav-links input {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.textbox{
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.textbox h1{
+  font-size: 45px;
+}
+
+.courses{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.row{
+  margin-top: 5px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Poppins';
+}
+
+.row h1{
+  color: rgb(0, 0, 0);
+}
+
+.row p{
+  color: rgb(0, 0, 0);
+}
+
+.course-con{
+  flex-basis: 31px;
+  background: #D9EEE1;
+  border-radius: 11px;
+  margin: 5%;
+  padding: 20px 55px;
+  box-sizing: border-box;
+}
+
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  padding: 12px 34px;
+  font-size: 13px;
+  margin-top: 12px;
+  font-family: 'Poppins';
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 0.3s;
+}
+
